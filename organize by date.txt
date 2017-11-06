@@ -13,3 +13,8 @@ library(lubridate)
 mdy(Dates$date)
 
 Dates$date <- mdy(Dates$date)
+
+arrange(Dates, date)
+
+Dates <- arrange(Dates, date)
+
