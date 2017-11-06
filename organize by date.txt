@@ -18,3 +18,4 @@ arrange(Dates, date)
 
 Dates <- arrange(Dates, date)
 
+#GOAL: filter by postives and pipe year to positive result and graph it to see if there is a trend
