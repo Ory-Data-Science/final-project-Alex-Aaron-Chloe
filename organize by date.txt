@@ -1,0 +1,15 @@
+all-data <- read.csv("West_Nile_Virus__WNV__Mosquito_Test_Results.csv")
+
+West_Nile_Virus <-  read.csv("West_Nile_Virus__WNV__Mosquito_Test_Results.csv")
+
+select(West_Nile_Virus, "TEST.DATE", "RESULT")
+
+separate(West_Nile_Virus, TEST.DATE, c("date", "time"), sep = " ")
+
+Dates <- separate(West_Nile_Virus, TEST.DATE, c("date", "time"), sep = " ")
+
+library(lubridate)
+
+mdy(Dates$date)
+
+Dates$date <- mdy(Dates$date)
