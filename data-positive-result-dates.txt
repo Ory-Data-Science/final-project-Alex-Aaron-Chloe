@@ -1,0 +1,5 @@
+Dates %>% 
+  filter(RESULT== "positive")
+
+Dates_positive <- Dates %>% 
+  filter(RESULT== "positive")
