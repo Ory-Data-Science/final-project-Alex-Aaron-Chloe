@@ -1,0 +1,2 @@
+library(plyr)
+count(Dates_positive, vars = "SEASON.YEAR")
