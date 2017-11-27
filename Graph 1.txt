@@ -8,5 +8,3 @@ positive_results_years <- count(Dates_positive, vars = "SEASON.YEAR")
 ggplot(positive_results_years, aes(x = SEASON.YEAR, y = freq )) +
   geom_bar(stat = "identity", color = "firebrick4", fill = "firebrick4") +
   labs(x = "Year", y = "Number of Scourges Positive for West Nile")
-
-#NOAA weather site
