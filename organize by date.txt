@@ -1,4 +1,7 @@
-all-data <- read.csv("West_Nile_Virus__WNV__Mosquito_Test_Results.csv")
+# Run this code first
+# set working directory with our West Nile Virus file 
+
+library(tidyverse)
 
 West_Nile_Virus <-  read.csv("West_Nile_Virus__WNV__Mosquito_Test_Results.csv")
 # our original data frame
