@@ -8,5 +8,5 @@ mosquito_count <- count(Dates, vars = "SEASON.YEAR")
 
 #this plots the counted number of scourges per year 
 ggplot(mosquito_count, aes(x = SEASON.YEAR, y = freq)) +
-  geom_bar(stat = "identity", color = "darkorchid4", fill = "darkorchid4") +
+  geom_bar(stat = "identity", color = "gold", fill = "gold") +
   labs(x = "Year", y ="Number of Scourges")
