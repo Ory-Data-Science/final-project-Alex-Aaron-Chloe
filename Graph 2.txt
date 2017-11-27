@@ -1,3 +1,5 @@
+# Run this file fifth
+
 #this function counts the number of mosquitos scourges caught each year. We wanted to compare this to the number of mosquitos infected with West Nile.
 count(Dates, vars = "SEASON.YEAR")
 
