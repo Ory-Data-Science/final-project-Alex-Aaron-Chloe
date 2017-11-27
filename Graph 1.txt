@@ -1,3 +1,5 @@
+# Run this code fourth
+
 library(ggplot2)
 
 positive_results_years <- count(Dates_positive, vars = "SEASON.YEAR")
