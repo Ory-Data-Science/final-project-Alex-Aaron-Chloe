@@ -10,3 +10,6 @@ mosquito_count <- count(Dates, vars = "SEASON.YEAR")
 ggplot(mosquito_count, aes(x = SEASON.YEAR, y = freq)) +
   geom_bar(stat = "identity", color = "gold", fill = "gold") +
   labs(x = "Year", y ="Number of Scourges")
+
+# Testing whether or not the y axes are statistically correlated
+cor(positive_results_years, mosquito_count)
